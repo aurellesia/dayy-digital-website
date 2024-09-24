@@ -1,0 +1,28 @@
+@mixin vertical-list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+@mixin flex($align: center, $justify: center, $direc: row, $text-align: left) {
+  display: flex;
+  align-items: $align;
+  justify-content: $justify;
+  flex-direction: $direc;
+  text-align: $text-align;
+}
+
+@mixin button() {
+  background-color: $orange-logo;
+  color: $black;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1.5rem;
+  align-self: center;
+  cursor: pointer;
+  &:hover {
+    color: $white;
+    background-color: $blue-logo;
+    transition: 0.3s;
+  }
+}

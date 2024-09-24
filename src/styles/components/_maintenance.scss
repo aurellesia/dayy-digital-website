@@ -1,0 +1,22 @@
+.maintenane-page-wrapper {
+  @include flex($direc: column);
+  margin-bottom: 3rem;
+  .maintenance-image {
+    width: 50%;
+    margin-top: 10rem;
+  }
+  .maintenance-title {
+    margin-top: 4rem;
+    font-size: 3rem;
+    font-weight: 700;
+    color: $blue-logo;
+  }
+  .maintenance-subtitle {
+    color: gray;
+  }
+  .button-back-to-home {
+    @include button();
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+}
