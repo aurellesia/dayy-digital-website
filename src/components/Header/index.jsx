@@ -10,8 +10,7 @@ const Header = () => {
           <div className="text-two">into loyal customers</div>
         </div>
         <div className="header-subtitle long-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-          mollitia, molestiae quas vel sint commodi repudiandae
+        Helping your digital advertising needs, developing advertising-based social media and generating sales for your brand.
         </div>
         <div className="button-header-wrapper">
           <button className="button-get-started">Get Started</button>

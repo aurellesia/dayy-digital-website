@@ -30,11 +30,7 @@ const Body = () => {
             We serve various digital marketing services
           </span>
           <span className="side-content-text long-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-            mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-            voluptatum laborum numquam blanditiis harum quisquam eius sed odit
-            fugiat iusto fuga praesentium optio, eaque rerum! Provident
-            similique accusantium nemo autem.
+          Are you ready to maximize your brand's impact? At Dayy Digital agency, we’re not just an advertising agency – we’re your partners in growth. Specializing in Marketplace Ads, Meta, and TikTok. we deliver strategies that work for your brand !
           </span>
         </div>
         <div className="part-two-wrapper">
@@ -43,8 +39,7 @@ const Body = () => {
             <div className="content-box">
               <span className="box-title">Ads Strategy Consultation</span>
               <span className="long-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                mollitia, molestiae quas vel sint commodi.
+              Unlock Growth with Expert Ads Consultation—strategic insights that elevate your brand's reach!
               </span>
             </div>
           </div>
@@ -54,8 +49,7 @@ const Body = () => {
             <div className="content-box">
               <span className="box-title">Meta Ads Management</span>
               <span className="long-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                mollitia, molestiae quas vel sint commodi.
+              Boost Your Sales Brand with Targeted Meta Ads—Expert Management for Maximum Impact!
               </span>
             </div>
           </div>
@@ -65,8 +59,7 @@ const Body = () => {
             <div className="content-box">
               <span className="box-title">Tiktok Ads Management</span>
               <span className="long-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                mollitia, molestiae quas vel sint commodi.
+              Reach and Engage Audiences with Expert TikTok Ads Management—Boost Your Brand's Impact!
               </span>
             </div>
           </div>
@@ -81,8 +74,7 @@ const Body = () => {
             <div className="content-box">
               <span className="box-title">Meta CPAS Management</span>
               <span className="long-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                mollitia, molestiae quas vel sint commodi.
+              Drive Sales with Meta CPAS like Tokopedia,Shopee, etc —Seamless Collaboration, Optimized Results!
               </span>
             </div>
           </div>
@@ -95,8 +87,7 @@ const Body = () => {
             <div className="content-box">
               <span className="box-title">Marketplace Ads Management</span>
               <span className="long-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                mollitia, molestiae quas vel sint commodi.
+              Maximize Sales with Expert Marketplace Ads Management— Product Keyword ads and Shop ads
               </span>
             </div>
           </div>
@@ -109,8 +100,7 @@ const Body = () => {
             <div className="content-box">
               <span className="box-title">Landing Page Development</span>
               <span className="long-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                mollitia, molestiae quas vel sint commodi.
+              Convert Visitors into Customers with High-Impact Landing Page Development—Optimize for Results!
               </span>
             </div>
           </div>
@@ -123,20 +113,20 @@ const Body = () => {
             <div className="checklist-wrapper">
               <img className="checklist-icon" src={checklist} alt="checklist" />
               <span className="side-content-text long-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Affordable Advertising Solutions—Boost Your Brand Without worried about budget.
               </span>
             </div>
 
             <div className="checklist-wrapper">
               <img className="checklist-icon" src={checklist} alt="checklist" />
               <span className="side-content-text long-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Proven Strategies for Maximum Impact and Sales for your Brand
               </span>
             </div>
             <div className="checklist-wrapper">
               <img className="checklist-icon" src={checklist} alt="checklist" />
               <span className="side-content-text long-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Experienced Advertisers at Your Service—Achieve More with Our Skilled Team!
               </span>
             </div>
             <div className="checklist-wrapper">
@@ -159,11 +149,7 @@ const Body = () => {
           </div>
           <div className="testimonial-text">
             <span className="testimonial-statement long-text">
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-              mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-              voluptatum laborum numquam blanditiis harum quisquam eius sed odit
-              fugiat iusto fuga praesentium optio, eaque rerum! Provident
-              similique accusantium nemo autem."
+            Welcome to Dayy Digital ! We’re excited to partner with you on your digital journey. Let’s elevate your brand together with our expert advertising solutions tailored to your needs! Let us elevate your brand with innovative strategies and expert management!
             </span><br/><br/>
             <span className="testimonial-name">Aurellesia Warsito</span><br/>
             <span className="testimonial-company long-text">CEO Dayy Digital</span>
