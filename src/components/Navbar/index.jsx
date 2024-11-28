@@ -13,12 +13,12 @@ const Navbar = () => {
               Home
             </NavLink>
           </li>
-          <li className="navlink">
+          {/* <li className="navlink">
             <NavLink to="/maintenance" className="navtext">
               About Us
             </NavLink>
-          </li>
-          <li className="navlink">
+          </li> */}
+          {/* <li className="navlink">
             <div class="dropdown">
               <button class="dropbtn">
                 Services
@@ -35,7 +35,7 @@ const Navbar = () => {
                 </NavLink>
               </div>
             </div>
-          </li>
+          </li> */}
 
           <li className="navlink">
             <NavLink to="/maintenance" className="navtext">

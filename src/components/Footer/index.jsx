@@ -13,7 +13,7 @@ const Footer = () => {
         {/* <img className="logo" src={logo} alt="logo" /> */}
         <div className="footer-menus">
           <ul className="footlink-wrapper">
-            <li className="footlink">
+            {/* <li className="footlink">
               <NavLink to="/" className="footlink-text">
                 HOME
               </NavLink>
@@ -50,7 +50,7 @@ const Footer = () => {
               <NavLink to="/maintenance" className="footlink-text">
                 CONTACT US
               </NavLink>
-            </li>
+            </li> */}
           </ul>
         </div>
         <div className="footer-sosmed">

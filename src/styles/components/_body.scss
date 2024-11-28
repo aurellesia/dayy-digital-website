@@ -80,9 +80,29 @@
         margin-top: 2rem;
       }
     }
+    
     .part-four-picture {
       justify-content: center;
     }
     
+  }
+  .portfolio-title-text {
+    text-align: left;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-left: 2rem;
+  }
+  .portfolio-subtitle-text {
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-left: 2rem;
+  }
+  .portfolio-wrapper {
+    padding: 2rem;
+    margin-bottom: 0;
+    .portfolio-pict-one{
+      width: 40%;
+    }
   }
 }
