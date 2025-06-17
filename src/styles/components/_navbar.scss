@@ -1,15 +1,15 @@
 .navbar {
   @include flex($justify: space-around);
   height: 4rem;
-  width: 90%;
+  width: 100%;
   position: fixed;
   background-color: $white;
-  padding: 5rem;
+  padding-top: 8px;
 
   .navbar-logo {
     width: 10rem;
     margin-right: -5rem;
-    margin-top: -2rem;
+    margin-top: -1rem;
   }
 
   .navlink-wrapper {
@@ -21,6 +21,7 @@
       padding: 1rem 2rem;
 
       .navtext {
+        padding-top: 3rem;
         &:hover {
           color: $blue-logo;
           transition: 0.3s;
