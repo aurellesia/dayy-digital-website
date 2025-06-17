@@ -13,7 +13,9 @@ import tiktok_icon from "../../assets/images/tiktok-yellow.png";
 import picture_one from "../../assets/images/body-picture-one-logo.png";
 import checklist from "../../assets/images/check-yellow.png";
 import testimoni from "../../assets/images/testimoni.png";
-import blue_checklist from "../../assets/images/check-blue.png";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
+
 
 // Gambar portfolio
 import meta_ads_reg_1 from "../../assets/portfolio/meta_ads_reguler_1.png";
@@ -28,6 +30,7 @@ const Body = () => {
   return (
     <>
       <div className="body">
+        {/* Section : Logo */}
         <div className="logos">
           <img className="logo1" src={logo1} alt="logo1" />
           <img className="logo2" src={logo2} alt="logo2" />
@@ -162,481 +165,51 @@ const Body = () => {
         </div>
 
         <span className="portfolio-title-text">Our Portfolio</span><br/>
-        
-        <span className="portfolio-subtitle-text">Meta Ads Reguler</span>
-        <div className="part-three-wrapper portfolio-wrapper">
-          <img
-            className="portfolio-pict-one"
-            src={meta_ads_reg_1}
-            alt="meta_ads_reg_1"
-          />
-          <div className="part-three-side-text">
-            <div className="checklist-wrapper">
-              <img
-                className="checklist-icon"
-                src={blue_checklist}
-                alt="blue_checklist"
-              />
-              <span className="side-content-text long-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                mollitia, molestiae quas vel sint commodi repudiandae
-                consequuntur
-              </span>
+        <div className="carousel-wrapper">
+          <Carousel className="carousel" showStatus={false}>
+            <div className="carousel-item">
+              <div>
+                <h3>Meta Ads Regular</h3>
+              </div>
+              <img src={meta_ads_reg_1} />
             </div>
 
-            <div className="checklist-wrapper">
-              <img
-                className="checklist-icon"
-                src={blue_checklist}
-                alt="blue_checklist"
-              />
-              <span className="side-content-text long-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                mollitia, molestiae quas vel sint commodi repudiandae
-                consequuntur
-              </span>
-            </div>
-            <div className="checklist-wrapper">
-              <img
-                className="checklist-icon"
-                src={blue_checklist}
-                alt="blue_checklist"
-              />
-              <span className="side-content-text long-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                mollitia, molestiae quas vel sint commodi repudiandae
-                consequuntur
-              </span>
-            </div>
-            <div className="checklist-wrapper">
-              <img
-                className="checklist-icon"
-                src={blue_checklist}
-                alt="blue_checklist"
-              />
-              <span className="side-content-text long-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                mollitia, molestiae quas vel sint commodi repudiandae
-                consequuntur
-              </span>
-            </div>
-          </div>
-        </div>
-
-        <div className="part-three-wrapper portfolio-wrapper">
-          <div className="part-three-side-text">
-            <div className="checklist-wrapper">
-              <img
-                className="checklist-icon"
-                src={blue_checklist}
-                alt="blue_checklist"
-              />
-              <span className="side-content-text long-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                mollitia, molestiae quas vel sint commodi repudiandae
-                consequuntur
-              </span>
+            <div className="carousel-item">
+              <div>
+                <h3>Meta Ads Regular</h3>
+              </div>
+              <img src={meta_ads_reg_2} />
             </div>
 
-            <div className="checklist-wrapper">
-              <img
-                className="checklist-icon"
-                src={blue_checklist}
-                alt="blue_checklist"
-              />
-              <span className="side-content-text long-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                mollitia, molestiae quas vel sint commodi repudiandae
-                consequuntur
-              </span>
-            </div>
-            <div className="checklist-wrapper">
-              <img
-                className="checklist-icon"
-                src={blue_checklist}
-                alt="blue_checklist"
-              />
-              <span className="side-content-text long-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                mollitia, molestiae quas vel sint commodi repudiandae
-                consequuntur
-              </span>
-            </div>
-            <div className="checklist-wrapper">
-              <img
-                className="checklist-icon"
-                src={blue_checklist}
-                alt="blue_checklist"
-              />
-              <span className="side-content-text long-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                mollitia, molestiae quas vel sint commodi repudiandae
-                consequuntur
-              </span>
-            </div>
-          </div>
-          <img
-            className="portfolio-pict-one"
-            src={meta_ads_reg_2}
-            alt="meta_ads_reg_2"
-          />
-        </div>
-
-        <span className="portfolio-subtitle-text">Meta Ads CPAS</span>
-        <div className="part-three-wrapper portfolio-wrapper">
-          <img
-            className="portfolio-pict-one"
-            src={meta_ads_cpas_1}
-            alt="meta_ads_cpas_1"
-          />
-          <div className="part-three-side-text">
-            <div className="checklist-wrapper">
-              <img
-                className="checklist-icon"
-                src={blue_checklist}
-                alt="blue_checklist"
-              />
-              <span className="side-content-text long-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                mollitia, molestiae quas vel sint commodi repudiandae
-                consequuntur
-              </span>
+            <div className="carousel-item">
+              <div>
+                <h3>Meta Ads CPAS</h3>
+              </div>
+              <img src={meta_ads_cpas_1} />
             </div>
 
-            <div className="checklist-wrapper">
-              <img
-                className="checklist-icon"
-                src={blue_checklist}
-                alt="blue_checklist"
-              />
-              <span className="side-content-text long-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                mollitia, molestiae quas vel sint commodi repudiandae
-                consequuntur
-              </span>
-            </div>
-            <div className="checklist-wrapper">
-              <img
-                className="checklist-icon"
-                src={blue_checklist}
-                alt="blue_checklist"
-              />
-              <span className="side-content-text long-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                mollitia, molestiae quas vel sint commodi repudiandae
-                consequuntur
-              </span>
-            </div>
-            <div className="checklist-wrapper">
-              <img
-                className="checklist-icon"
-                src={blue_checklist}
-                alt="blue_checklist"
-              />
-              <span className="side-content-text long-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                mollitia, molestiae quas vel sint commodi repudiandae
-                consequuntur
-              </span>
-            </div>
-          </div>
-        </div>
-
-        <div className="part-three-wrapper portfolio-wrapper">
-          <div className="part-three-side-text">
-            <div className="checklist-wrapper">
-              <img
-                className="checklist-icon"
-                src={blue_checklist}
-                alt="blue_checklist"
-              />
-              <span className="side-content-text long-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                mollitia, molestiae quas vel sint commodi repudiandae
-                consequuntur
-              </span>
+            <div className="carousel-item">
+              <div>
+                <h3>Meta Ads CPAS</h3>
+              </div>
+              <img src={meta_ads_cpas_2} />
             </div>
 
-            <div className="checklist-wrapper">
-              <img
-                className="checklist-icon"
-                src={blue_checklist}
-                alt="blue_checklist"
-              />
-              <span className="side-content-text long-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                mollitia, molestiae quas vel sint commodi repudiandae
-                consequuntur
-              </span>
-            </div>
-            <div className="checklist-wrapper">
-              <img
-                className="checklist-icon"
-                src={blue_checklist}
-                alt="blue_checklist"
-              />
-              <span className="side-content-text long-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                mollitia, molestiae quas vel sint commodi repudiandae
-                consequuntur
-              </span>
-            </div>
-            <div className="checklist-wrapper">
-              <img
-                className="checklist-icon"
-                src={blue_checklist}
-                alt="blue_checklist"
-              />
-              <span className="side-content-text long-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                mollitia, molestiae quas vel sint commodi repudiandae
-                consequuntur
-              </span>
-            </div>
-          </div>
-          <img
-            className="portfolio-pict-one"
-            src={meta_ads_cpas_2}
-            alt="meta_ads_cpas_2"
-          />
-        </div>
-
-        <span className="portfolio-subtitle-text">Tiktok Ads</span>
-        <div className="part-three-wrapper portfolio-wrapper">
-          <img
-            className="portfolio-pict-one"
-            src={meta_ads_cpas_1}
-            alt="meta_ads_cpas_1"
-          />
-          <div className="part-three-side-text">
-            <div className="checklist-wrapper">
-              <img
-                className="checklist-icon"
-                src={blue_checklist}
-                alt="blue_checklist"
-              />
-              <span className="side-content-text long-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                mollitia, molestiae quas vel sint commodi repudiandae
-                consequuntur
-              </span>
+            <div className="carousel-item">
+              <div>
+                <h3>Marketplace Ads</h3>
+              </div>
+              <img src={marketplace_ads_1} />
             </div>
 
-            <div className="checklist-wrapper">
-              <img
-                className="checklist-icon"
-                src={blue_checklist}
-                alt="blue_checklist"
-              />
-              <span className="side-content-text long-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                mollitia, molestiae quas vel sint commodi repudiandae
-                consequuntur
-              </span>
+            <div className="carousel-item">
+              <div>
+                <h3>Marketplace Ads</h3>
+              </div>
+              <img src={marketplace_ads_2} />
             </div>
-            <div className="checklist-wrapper">
-              <img
-                className="checklist-icon"
-                src={blue_checklist}
-                alt="blue_checklist"
-              />
-              <span className="side-content-text long-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                mollitia, molestiae quas vel sint commodi repudiandae
-                consequuntur
-              </span>
-            </div>
-            <div className="checklist-wrapper">
-              <img
-                className="checklist-icon"
-                src={blue_checklist}
-                alt="blue_checklist"
-              />
-              <span className="side-content-text long-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                mollitia, molestiae quas vel sint commodi repudiandae
-                consequuntur
-              </span>
-            </div>
-          </div>
-        </div>
-
-        <div className="part-three-wrapper portfolio-wrapper">
-          <div className="part-three-side-text">
-            <div className="checklist-wrapper">
-              <img
-                className="checklist-icon"
-                src={blue_checklist}
-                alt="blue_checklist"
-              />
-              <span className="side-content-text long-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                mollitia, molestiae quas vel sint commodi repudiandae
-                consequuntur
-              </span>
-            </div>
-
-            <div className="checklist-wrapper">
-              <img
-                className="checklist-icon"
-                src={blue_checklist}
-                alt="blue_checklist"
-              />
-              <span className="side-content-text long-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                mollitia, molestiae quas vel sint commodi repudiandae
-                consequuntur
-              </span>
-            </div>
-            <div className="checklist-wrapper">
-              <img
-                className="checklist-icon"
-                src={blue_checklist}
-                alt="blue_checklist"
-              />
-              <span className="side-content-text long-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                mollitia, molestiae quas vel sint commodi repudiandae
-                consequuntur
-              </span>
-            </div>
-            <div className="checklist-wrapper">
-              <img
-                className="checklist-icon"
-                src={blue_checklist}
-                alt="blue_checklist"
-              />
-              <span className="side-content-text long-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                mollitia, molestiae quas vel sint commodi repudiandae
-                consequuntur
-              </span>
-            </div>
-          </div>
-          <img
-            className="portfolio-pict-one"
-            src={meta_ads_cpas_2}
-            alt="meta_ads_cpas_2"
-          />
-        </div>
-
-        <span className="portfolio-subtitle-text">Marketplace Ads</span>
-        <div className="part-three-wrapper portfolio-wrapper">
-          <img
-            className="portfolio-pict-one"
-            src={marketplace_ads_1}
-            alt="marketplace_ads_1"
-          />
-          <div className="part-three-side-text">
-            <div className="checklist-wrapper">
-              <img
-                className="checklist-icon"
-                src={blue_checklist}
-                alt="blue_checklist"
-              />
-              <span className="side-content-text long-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                mollitia, molestiae quas vel sint commodi repudiandae
-                consequuntur
-              </span>
-            </div>
-
-            <div className="checklist-wrapper">
-              <img
-                className="checklist-icon"
-                src={blue_checklist}
-                alt="blue_checklist"
-              />
-              <span className="side-content-text long-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                mollitia, molestiae quas vel sint commodi repudiandae
-                consequuntur
-              </span>
-            </div>
-            <div className="checklist-wrapper">
-              <img
-                className="checklist-icon"
-                src={blue_checklist}
-                alt="blue_checklist"
-              />
-              <span className="side-content-text long-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                mollitia, molestiae quas vel sint commodi repudiandae
-                consequuntur
-              </span>
-            </div>
-            <div className="checklist-wrapper">
-              <img
-                className="checklist-icon"
-                src={blue_checklist}
-                alt="blue_checklist"
-              />
-              <span className="side-content-text long-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                mollitia, molestiae quas vel sint commodi repudiandae
-                consequuntur
-              </span>
-            </div>
-          </div>
-        </div>
-
-        <div className="part-three-wrapper portfolio-wrapper">
-          <div className="part-three-side-text">
-            <div className="checklist-wrapper">
-              <img
-                className="checklist-icon"
-                src={blue_checklist}
-                alt="blue_checklist"
-              />
-              <span className="side-content-text long-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                mollitia, molestiae quas vel sint commodi repudiandae
-                consequuntur
-              </span>
-            </div>
-
-            <div className="checklist-wrapper">
-              <img
-                className="checklist-icon"
-                src={blue_checklist}
-                alt="blue_checklist"
-              />
-              <span className="side-content-text long-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                mollitia, molestiae quas vel sint commodi repudiandae
-                consequuntur
-              </span>
-            </div>
-            <div className="checklist-wrapper">
-              <img
-                className="checklist-icon"
-                src={blue_checklist}
-                alt="blue_checklist"
-              />
-              <span className="side-content-text long-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                mollitia, molestiae quas vel sint commodi repudiandae
-                consequuntur
-              </span>
-            </div>
-            <div className="checklist-wrapper">
-              <img
-                className="checklist-icon"
-                src={blue_checklist}
-                alt="blue_checklist"
-              />
-              <span className="side-content-text long-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                mollitia, molestiae quas vel sint commodi repudiandae
-                consequuntur
-              </span>
-            </div>
-          </div>
-          <img
-            className="portfolio-pict-one"
-            src={marketplace_ads_2}
-            alt="marketplace_ads_2"
-          />
+            
+          </Carousel>
         </div>
 
         <div className="part-four-wrapper">

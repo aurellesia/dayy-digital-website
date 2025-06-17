@@ -1,7 +1,6 @@
 .header {
     @include flex($direc: column);
     
-
     .header-title {
         @include flex($direc: column);
         font-size: 4rem;
@@ -21,7 +20,7 @@
 
     .button-header-wrapper {
         @include flex($justify: space-around);
-        width: 15%;
+        width: 20%;
         margin-top: 2rem;
 
         .button-get-started {

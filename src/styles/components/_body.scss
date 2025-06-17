@@ -105,4 +105,23 @@
       width: 40%;
     }
   }
+
+  .carousel-wrapper {
+    @include flex();
+    padding: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .carousel {
+    width: 100%;
+    background: #efb759;
+    border-radius: 8px;
+    .carousel-item {
+      
+      align-content: center; 
+      padding:2rem;
+      
+    }
+    
+  }
 }

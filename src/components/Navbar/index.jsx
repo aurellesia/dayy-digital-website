@@ -6,37 +6,14 @@ const Navbar = () => {
   return (
     <>
       <div className="navbar">
-        <img className="logo" src={logo} alt="logo" />
+        
+        <img className="navbar-logo" src={logo} alt="navbar" />
         <ul className="navlink-wrapper">
           <li className="navlink">
             <NavLink to="/" className="navtext">
               Home
             </NavLink>
           </li>
-          {/* <li className="navlink">
-            <NavLink to="/maintenance" className="navtext">
-              About Us
-            </NavLink>
-          </li> */}
-          {/* <li className="navlink">
-            <div class="dropdown">
-              <button class="dropbtn">
-                Services
-              </button>
-              <div class="dropdown-content">
-                <NavLink to="/maintenance" className="navtext">
-                  Services 1
-                </NavLink>
-                <NavLink to="/maintenance" className="navtext">
-                  Services 2
-                </NavLink>
-                <NavLink to="/maintenance" className="navtext">
-                  Services 3
-                </NavLink>
-              </div>
-            </div>
-          </li> */}
-
           <li className="navlink">
             <NavLink to="/maintenance" className="navtext">
               Pricing

@@ -9,7 +9,7 @@ const Header = () => {
           <div>Converting clicks</div>
           <div className="text-two">into loyal customers</div>
         </div>
-        <div className="header-subtitle long-text">
+        <div className="header-subtitle gray-text">
         Helping your digital advertising needs, developing advertising-based social media and generating sales for your brand.
         </div>
         <div className="button-header-wrapper">
@@ -19,7 +19,7 @@ const Header = () => {
         <img
           className="header-picture"
           src={header_picture}
-          alt="header-picture"
+          alt="header"
         />
       </div>
     </>
