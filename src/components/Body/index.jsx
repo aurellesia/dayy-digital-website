@@ -23,6 +23,7 @@ import meta_ads_cpas_1 from "../../assets/portfolio/meta_ads_cpas_1.png";
 import meta_ads_cpas_2 from "../../assets/portfolio/meta_ads_cpas_2.png";
 import marketplace_ads_1 from "../../assets/portfolio/marketplace_ads_1.png";
 import marketplace_ads_2 from "../../assets/portfolio/marketplace_ads_2.png";
+import ButtonGetStarted from "../ButtonGetStarted";
 
 const Body = () => {
   return (
@@ -155,8 +156,7 @@ const Body = () => {
                 Skilled Team!
               </span>
             </div>
-            <div className="copywrite-list">
-              <button className="btn-get-started">Get Started</button>
+            <div className="copywrite-list"><ButtonGetStarted />
             </div>
           </div>
           <img className="copywrite-image" src={picture_one} alt="copywrite" />

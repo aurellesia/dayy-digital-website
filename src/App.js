@@ -10,6 +10,8 @@ function App() {
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/maintenance" element={<Maintenance />} />
+          <Route path="/pricing" element={<Maintenance />} />
+          <Route path="/contact" element={<Maintenance />} />
         </Routes>
       </Router>
     </div>

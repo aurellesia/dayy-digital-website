@@ -1,5 +1,6 @@
 import "../../styles/styles.scss";
 import header_picture from "../../assets/images/header-picture-logo.png";
+import ButtonGetStarted from "../ButtonGetStarted";
 
 const Header = () => {
   return (
@@ -13,7 +14,7 @@ const Header = () => {
         Helping your digital advertising needs, developing advertising-based social media and generating sales for your brand.
         </div>
         <div className="header-btn-wrapper">
-          <button className="btn-get-started">Get Started</button>
+          <ButtonGetStarted />
           <button className="btn-contact-us">Contact Us</button>
         </div>
         <img

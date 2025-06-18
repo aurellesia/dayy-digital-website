@@ -1,6 +1,7 @@
 import "../../styles/styles.scss";
 import { NavLink } from "react-router-dom";
 import logo from "../../assets/images/logo-day-no-bg-navbar.png";
+import ButtonGetStarted from "../ButtonGetStarted";
 
 const Navbar = () => {
   return (
@@ -14,17 +15,17 @@ const Navbar = () => {
             </NavLink>
           </li>
           <li className="navlink">
-            <NavLink to="/maintenance" className="navtext">
+            <NavLink to="/pricing" className="navtext">
               Pricing
             </NavLink>
           </li>
           <li className="navlink">
-            <NavLink to="/maintenance" className="navtext">
+            <NavLink to="/contact" className="navtext">
               Contact Us
             </NavLink>
           </li>
         </ul>
-        <button className="button-get-started">Get Started</button>
+        <ButtonGetStarted />
       </div>
     </>
   );
