@@ -2,16 +2,17 @@
   margin: 0 5rem;
   margin-bottom: 3rem;
 
+  // LOGO
   .logos {
     @include flex($justify: space-around);
     margin: 2rem 0;
-
     img {
       opacity: 0.5;
       z-index: -1;
     }
   }
 
+  // INTRODUCTION
   .introduction-wrapper {
     @include flex($justify: space-around);
     width: 100%;
@@ -28,9 +29,9 @@
       width: 50%;
     }
   }
-  .services-wrapper,
-  .copywrite-wrapper,
-  .testimoni-wrapper {
+
+  // SERVICES
+  .services-wrapper {
     @include flex($justify: space-around);
     margin-bottom: 2rem;
     .service-box {
@@ -41,25 +42,28 @@
       border-radius: 5px;
       margin: 1rem 1rem;
       padding: 2rem;
-    }
-    .box-body {
-      @include flex($direc: column, $align: left);
-      margin: 1rem;
-      .box-title {
-        font-weight: 700;
-        margin-bottom: 1rem;
-        font-size: 18px;
+      .service-icon {
+        align-self: center;
+        width: 5rem;
+        height: 5rem;
+        margin-right: 1rem;
+      }
+      .box-body {
+        @include flex($direc: column, $align: left);
+        margin: 1rem;
+        .box-title {
+          font-weight: 700;
+          margin-bottom: 1rem;
+          font-size: 18px;
+        }
       }
     }
-    .service-icon {
-      align-self: center;
-      width: 5rem;
-      height: 5rem;
-      margin-right: 1rem;
-    }
-    .copywrite-image {
-      width: 50%;
-    }
+  }
+
+  // COPYWRITE
+  .copywrite-wrapper {
+    @include flex($justify: space-around);
+    margin-bottom: 2rem;
     .copywrite-content {
       @include flex($align: left, $direc: column);
       padding: 2rem;
@@ -76,39 +80,46 @@
           width: 2rem;
           margin-right: 2rem;
         }
-      }
-      .btn-get-started {
-        @include button();
-        margin-top: 2rem;
+        .btn-get-started {
+          @include button();
+          margin-top: 2rem;
+        }
       }
     }
+    .copywrite-image {
+      width: 50%;
+    }
+  }
 
+  // PORTFOLIO
+  .portfolio-wrapper {
+    .portfolio-title-text {
+      text-align: left;
+      font-size: 3rem;
+      font-weight: 700;
+      margin-left: 2rem;
+    }
+    .carousel-wrapper {
+      @include flex();
+      padding: 2rem;
+      margin-bottom: 2rem;
+      .carousel {
+        width: 100%;
+        background: #efb759;
+        border-radius: 8px;
+        z-index: -1;
+        .carousel-item {
+          align-content: center;
+          padding: 2rem;
+        }
+      }
+    }
+  }
+
+  // TESTIMONI
+  .testimoni-wrapper {
     .testimoni-image-wrapper {
       justify-content: center;
-    }
-  }
-  
-  .portfolio-title-text {
-    text-align: left;
-    font-size: 3rem;
-    font-weight: 700;
-    margin-left: 2rem;
-  }
-
-  .carousel-wrapper {
-    @include flex();
-    padding: 2rem;
-    margin-bottom: 2rem;
-  }
-
-  .carousel {
-    width: 100%;
-    background: #efb759;
-    border-radius: 8px;
-    z-index: -1;
-    .carousel-item {
-      align-content: center;
-      padding: 2rem;
     }
   }
 }
