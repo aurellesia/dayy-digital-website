@@ -1,32 +1,32 @@
 .header {
     @include flex($direc: column);
     
-    .header-title {
+    .header-title-large {
         @include flex($direc: column);
         font-size: 4rem;
         font-weight: 700;
         margin-top: 10rem;
         margin-bottom: 2rem;
 
-        .text-two {
+        .hedaer-title-medium {
             font-size: 3rem;
         }
     }
 
-    .header-subtitle {
+    .header-tagline {
         text-align: center;
         width: 35%;
     }
 
-    .button-header-wrapper {
+    .header-btn-wrapper {
         @include flex($justify: space-around);
         width: 20%;
         margin-top: 2rem;
 
-        .button-get-started {
+        .btn-get-started {
             @include button();
         }
-        .button-contact-us {
+        .btn-contact-us {
             @include button();
             border: 1px solid $orange-logo;
             background-color: $white;
@@ -36,7 +36,7 @@
               }
         }
     }
-    .header-picture {
+    .header-image {
         width: 50%;
     }
 }

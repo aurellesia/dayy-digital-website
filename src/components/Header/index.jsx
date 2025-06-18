@@ -5,19 +5,19 @@ const Header = () => {
   return (
     <>
       <div className="header">
-        <div className="header-title">
+        <div className="header-title-large">
           <div>Converting clicks</div>
-          <div className="text-two">into loyal customers</div>
+          <div className="header-title-medium">into loyal customers</div>
         </div>
-        <div className="header-subtitle gray-text">
+        <div className="header-tagline gray-text">
         Helping your digital advertising needs, developing advertising-based social media and generating sales for your brand.
         </div>
-        <div className="button-header-wrapper">
-          <button className="button-get-started">Get Started</button>
-          <button className="button-contact-us">Contact Us</button>
+        <div className="header-btn-wrapper">
+          <button className="btn-get-started">Get Started</button>
+          <button className="btn-contact-us">Contact Us</button>
         </div>
         <img
-          className="header-picture"
+          className="header-image"
           src={header_picture}
           alt="header"
         />
